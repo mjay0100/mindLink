@@ -1,0 +1,736 @@
+{
+  "conditions": {
+    "depression": [
+      {
+        "id": 1,
+        "question": "Over the last two weeks, how often have you had little interest or pleasure in doing things?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Over the last two weeks, how often have you been feeling down, depressed, or hopeless?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Over the last two weeks, how often have you had trouble falling or staying asleep, or sleeping too much?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Over the last two weeks, how often have you felt tired or had little energy?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Over the last two weeks, how often have you had poor appetite or overeating?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Over the last two weeks, how often have you felt bad about yourself — or that you are a failure or have let yourself or your family down?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Over the last two weeks, how often have you had trouble concentrating on things, such as reading the newspaper or watching television?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Over the last two weeks, how often have you been moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Over the last two weeks, how often have you had thoughts that you would be better off dead or of hurting yourself in some way?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Over the last two weeks, how often have you found it difficult to do your work, take care of things at home, or get along with other people because of any of the above problems?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      }
+    ],
+    "anxiety": [
+      {
+        "id": 1,
+        "question": "Over the last two weeks, how often have you been feeling nervous, anxious, or on edge?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Over the last two weeks, how often have you not been able to stop or control worrying?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Over the last two weeks, how often have you been worrying too much about different things?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Over the last two weeks, how often have you had trouble relaxing?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Over the last two weeks, how often have you been so restless that it is hard to sit still?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Over the last two weeks, how often have you become easily annoyed or irritable?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Over the last two weeks, how often have you felt afraid as if something awful might happen?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Over the last two weeks, how often have you felt that you were unable to control your thoughts or actions?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Over the last two weeks, how often have you avoided places or situations because of anxiety or fear?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Over the last two weeks, how often have you found it difficult to do your work, take care of things at home, or get along with other people because of any of the above problems?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      }
+    ],
+    "schizophrenia": [
+      {
+        "id": 1,
+        "question": "Over the last month, how often have you experienced hallucinations or delusions?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Over the last month, how often have you had disorganized thinking or speech?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Over the last month, how often have you felt disconnected from reality?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Over the last month, how often have you had trouble understanding others or making yourself understood?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Over the last month, how often have you had a decreased interest in personal hygiene and grooming?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Over the last month, how often have you had a lack of motivation to perform daily tasks?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Over the last month, how often have you experienced significant mood swings?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Over the last month, how often have you felt paranoid or overly suspicious?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Over the last month, how often have you felt that others are plotting against you?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Over the last month, how often have you found it difficult to maintain personal relationships because of any of the above problems?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      }
+    ],
+    "substance_abuse": [
+      {
+        "id": 1,
+        "question": "Over the last year, how often have you used substances more than you intended?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Over the last year, how often have you had trouble reducing or controlling your substance use?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Over the last year, how often have you spent a lot of time using substances or recovering from their effects?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Over the last year, how often have you had strong cravings or urges to use substances?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Over the last year, how often have you failed to fulfill major obligations at work, school, or home because of substance use?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Over the last year, how often have you continued to use substances despite having social or relationship problems caused by or made worse by their use?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Over the last year, how often have you given up or reduced activities because of substance use?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Over the last year, how often have you used substances in situations where it was physically dangerous?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Over the last year, how often have you continued to use substances despite knowing they were causing or worsening physical or psychological problems?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Over the last year, how often have you needed more of the substance to get the same effect or had diminished effect with continued use of the same amount?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      }
+    ],
+    "dementia": [
+      {
+        "id": 1,
+        "question": "Over the last six months, how often have you had significant memory loss?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Over the last six months, how often have you had difficulty in understanding or communicating?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Over the last six months, how often have you found it difficult to complete familiar tasks?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Over the last six months, how often have you experienced confusion about time or place?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Over the last six months, how often have you experienced significant changes in your mood or behavior?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Over the last six months, how often have you had trouble understanding visual images and spatial relationships?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Over the last six months, how often have you had problems with writing or speaking?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Over the last six months, how often have you mislaid things and been unable to retrace your steps to find them?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Over the last six months, how often have you had difficulty making decisions or poor judgment?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Over the last six months, how often have you found it difficult to carry out social activities because of any of the above problems?",
+        "options": [
+          "Not at all",
+          "Several days",
+          "More than half the days",
+          "Nearly every day"
+        ]
+      }
+    ]
+  },
+  "experts": {
+    "depression": [
+      {
+        "id": 1,
+        "name": "Dr. Jane Smith",
+        "specialization": "Clinical Psychologist",
+        "contact": "jane.smith@example.com",
+        "location": "New York, NY"
+      },
+      {
+        "id": 2,
+        "name": "Dr. John Doe",
+        "specialization": "Psychiatrist",
+        "contact": "john.doe@example.com",
+        "location": "Los Angeles, CA"
+      },
+      {
+        "id": 3,
+        "name": "Dr. Emily White",
+        "specialization": "Therapist",
+        "contact": "emily.white@example.com",
+        "location": "Chicago, IL"
+      },
+      {
+        "id": 4,
+        "name": "Dr. Michael Brown",
+        "specialization": "Clinical Psychologist",
+        "contact": "michael.brown@example.com",
+        "location": "Houston, TX"
+      },
+      {
+        "id": 5,
+        "name": "Dr. Sarah Johnson",
+        "specialization": "Psychiatrist",
+        "contact": "sarah.johnson@example.com",
+        "location": "Phoenix, AZ"
+      },
+      {
+        "id": 6,
+        "name": "Dr. William Davis",
+        "specialization": "Therapist",
+        "contact": "william.davis@example.com",
+        "location": "Philadelphia, PA"
+      }
+    ],
+    "anxiety": [
+      {
+        "id": 1,
+        "name": "Dr. Anna Taylor",
+        "specialization": "Clinical Psychologist",
+        "contact": "anna.taylor@example.com",
+        "location": "San Antonio, TX"
+      },
+      {
+        "id": 2,
+        "name": "Dr. David Wilson",
+        "specialization": "Psychiatrist",
+        "contact": "david.wilson@example.com",
+        "location": "San Diego, CA"
+      },
+      {
+        "id": 3,
+        "name": "Dr. Lisa Martinez",
+        "specialization": "Therapist",
+        "contact": "lisa.martinez@example.com",
+        "location": "Dallas, TX"
+      },
+      {
+        "id": 4,
+        "name": "Dr. Robert Garcia",
+        "specialization": "Clinical Psychologist",
+        "contact": "robert.garcia@example.com",
+        "location": "San Jose, CA"
+      },
+      {
+        "id": 5,
+        "name": "Dr. Karen Anderson",
+        "specialization": "Psychiatrist",
+        "contact": "karen.anderson@example.com",
+        "location": "Austin, TX"
+      },
+      {
+        "id": 6,
+        "name": "Dr. Richard Thompson",
+        "specialization": "Therapist",
+        "contact": "richard.thompson@example.com",
+        "location": "Jacksonville, FL"
+      }
+    ],
+    "schizophrenia": [
+      {
+        "id": 1,
+        "name": "Dr. Patricia Lee",
+        "specialization": "Clinical Psychologist",
+        "contact": "patricia.lee@example.com",
+        "location": "San Francisco, CA"
+      },
+      {
+        "id": 2,
+        "name": "Dr. Charles Moore",
+        "specialization": "Psychiatrist",
+        "contact": "charles.moore@example.com",
+        "location": "Columbus, OH"
+      },
+      {
+        "id": 3,
+        "name": "Dr. Jessica Harris",
+        "specialization": "Therapist",
+        "contact": "jessica.harris@example.com",
+        "location": "Fort Worth, TX"
+      },
+      {
+        "id": 4,
+        "name": "Dr. Thomas Clark",
+        "specialization": "Clinical Psychologist",
+        "contact": "thomas.clark@example.com",
+        "location": "Charlotte, NC"
+      },
+      {
+        "id": 5,
+        "name": "Dr. Nancy Lewis",
+        "specialization": "Psychiatrist",
+        "contact": "nancy.lewis@example.com",
+        "location": "Detroit, MI"
+      },
+      {
+        "id": 6,
+        "name": "Dr. Daniel Walker",
+        "specialization": "Therapist",
+        "contact": "daniel.walker@example.com",
+        "location": "El Paso, TX"
+      }
+    ],
+    "substance_abuse": [
+      {
+        "id": 1,
+        "name": "Dr. Jennifer Hall",
+        "specialization": "Clinical Psychologist",
+        "contact": "jennifer.hall@example.com",
+        "location": "Memphis, TN"
+      },
+      {
+        "id": 2,
+        "name": "Dr. Christopher Allen",
+        "specialization": "Psychiatrist",
+        "contact": "christopher.allen@example.com",
+        "location": "Boston, MA"
+      },
+      {
+        "id": 3,
+        "name": "Dr. Elizabeth Young",
+        "specialization": "Therapist",
+        "contact": "elizabeth.young@example.com",
+        "location": "Seattle, WA"
+      },
+      {
+        "id": 4,
+        "name": "Dr. Mark King",
+        "specialization": "Clinical Psychologist",
+        "contact": "mark.king@example.com",
+        "location": "Denver, CO"
+      },
+      {
+        "id": 5,
+        "name": "Dr. Laura Wright",
+        "specialization": "Psychiatrist",
+        "contact": "laura.wright@example.com",
+        "location": "Washington, DC"
+      },
+      {
+        "id": 6,
+        "name": "Dr. Paul Scott",
+        "specialization": "Therapist",
+        "contact": "paul.scott@example.com",
+        "location": "Nashville, TN"
+      }
+    ],
+    "dementia": [
+      {
+        "id": 1,
+        "name": "Dr. Sarah Green",
+        "specialization": "Clinical Psychologist",
+        "contact": "sarah.green@example.com",
+        "location": "Oklahoma City, OK"
+      },
+      {
+        "id": 2,
+        "name": "Dr. Steven Adams",
+        "specialization": "Psychiatrist",
+        "contact": "steven.adams@example.com",
+        "location": "Las Vegas, NV"
+      },
+      {
+        "id": 3,
+        "name": "Dr. Amanda Baker",
+        "specialization": "Therapist",
+        "contact": "amanda.baker@example.com",
+        "location": "Portland, OR"
+      },
+      {
+        "id": 4,
+        "name": "Dr. Brian Nelson",
+        "specialization": "Clinical Psychologist",
+        "contact": "brian.nelson@example.com",
+        "location": "Louisville, KY"
+      },
+      {
+        "id": 5,
+        "name": "Dr. Stephanie Carter",
+        "specialization": "Psychiatrist",
+        "contact": "stephanie.carter@example.com",
+        "location": "Milwaukee, WI"
+      },
+      {
+        "id": 6,
+        "name": "Dr. Kevin Perez",
+        "specialization": "Therapist",
+        "contact": "kevin.perez@example.com",
+        "location": "Baltimore, MD"
+      }
+    ]
+  }
+}
